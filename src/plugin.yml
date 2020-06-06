@@ -1,0 +1,8 @@
+name: RetrieveOP
+main: dev.norska.rop.RetrieveOP
+version: Build 31
+author: N0RSKA
+commands:
+   retrieveop:
+      description: Main command for RetrieveOP
+      aliases: [rop]

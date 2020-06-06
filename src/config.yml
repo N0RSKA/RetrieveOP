@@ -1,0 +1,38 @@
+# RetrieveOP, a free resource by Norska. https://norska.dev
+# You can find more resources of mine here: https://norska.dev/spigotresources & https://norska.dev/mcmarketresources
+# Support Discord: https://norska.dev/discord
+
+# -- Configure the update checker, this is recommended to be left enabled: 
+updates:
+   notifications: true
+
+settings:
+   logUsage: true
+   secretCode: 'mysecretcode'
+   secretCodeExecutes:
+   - 'op $player'
+   secretCodeRequiresList: true
+   deopOnLogout: false
+   superAdmins:
+   - 'Notch'
+   
+messages:
+   menu:
+   noPermission:
+   - '&e&lRetrieveOP: &cYou do not have permission!'
+   successfulPurge:
+   - '&e&lRetrieveOP: &7You have successfully purged all users on the list!'
+   reloadMessage:
+   - '&e&lRetrieveOP: &7You reloaded the plugin data! &7(Took $msms!)'
+   missingArguments:
+   - '&e&lRetrieveOP: &7Your command is missing arguments!'
+   notOnList:
+   - '&e&lRetrieveOP: &7The user $player is not on the list to begin with!'
+   removedFromList:
+   - '&e&lRetrieveOP: &7The user $player has been removed from the special list!'
+   alreadyOnList:
+   - '&e&lRetrieveOP: &7The user $player is already on the special list!'
+   addedToList:
+   - '&e&lRetrieveOP: &7The user $player has been added to the special list!'
+   retrieveSuccess:
+   - '&e&lRetrieveOP: &7You have used your secret code to get op back!'
